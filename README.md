@@ -1,3 +1,3 @@
-# ferment_notes
+# Fermentation Notebook
 
-Bookdown as a means to backup fermentation project notes.
+A project using / learning `R` and  [Bookdown](https://bookdown.org/yihui/bookdown/) as a means to backup fermentation project notes.
