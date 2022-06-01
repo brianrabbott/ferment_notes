@@ -1,0 +1,483 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\title{Fermenation Notes}
+\author{Brian Abbott}
+\date{2022-05-31}
+
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Fermenation Notes},
+  pdfauthor={Brian Abbott},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\usepackage[normalem]{ulem}
+% Avoid problems with \sout in headers with hyperref
+\pdfstringdefDisableCommands{\renewcommand{\sout}{}}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\usepackage{amsthm}
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=8pt plus 2pt minus 4pt
+  \thm@postskip=\thm@preskip
+}
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage[]{natbib}
+\bibliographystyle{plainnat}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{introduction}{%
+\chapter{Introduction}\label{introduction}}
+
+Just a place to archive / backup my fermentation notes while learning a bit about \texttt{R} and \href{https://bookdown.org/}{bookdown}.
+
+\hypertarget{kombucha}{%
+\chapter{Kombucha}\label{kombucha}}
+
+\hypertarget{grapefruit}{%
+\section{Grapefruit}\label{grapefruit}}
+
+\textbf{Bulk Ferment}
+
+\emph{Sunday, 23 May}
+
+Scoby and starter donated from Daniella.
+
+Method: \url{https://food52.com/blog/13548-my-adventures-in-brewing-kombucha-how-you-can-do-it-too}
+
+\begin{itemize}
+\item
+  6 cups boiled, then steeped with 8 bags of black tea, 20 minutes
+\item
+  1 cup of sugar dissolved in hot water
+\item
+  6 cups cold added + 1 more when added to crock
+\item
+  Added Daniela's mother and the starter it came in
+\item
+  Covered with tea towel
+\end{itemize}
+
+\textbf{Second Ferment}
+
+\emph{Wednesday, 2 June}
+
+\begin{itemize}
+\tightlist
+\item
+  Bottled
+\item
+  Output: 5 \textasciitilde16 oz bottles
+\item
+  Flavor: all 5 (2 tbsp) \textasciitilde25 ml grapefruit juice
+\end{itemize}
+
+\hypertarget{ginger-and-honey}{%
+\section{Ginger and Honey}\label{ginger-and-honey}}
+
+\textbf{Bulk Ferment}
+
+\emph{Wednesday, 2 June}
+
+\begin{itemize}
+\tightlist
+\item
+  Made a new batch using same instructions as listed above; kept the mother in the crock and just added new tea to it
+\end{itemize}
+
+\textbf{Second Ferment}
+
+\emph{Saturday, June 12}
+
+\begin{itemize}
+\tightlist
+\item
+  Bottled second batch
+\item
+  Output: 5 bottles
+\item
+  Flavor: ginger (\textasciitilde1in worth of matchsticks) + \textasciitilde.5 teaspoon honey
+\end{itemize}
+
+\hypertarget{grapefruit-1}{%
+\section{Grapefruit}\label{grapefruit-1}}
+
+\textbf{Bulk Ferment}
+
+\emph{Saturday, June 12}
+
+\begin{itemize}
+\tightlist
+\item
+  Made another batch, same instructions
+\end{itemize}
+
+\textbf{Second Ferment}
+
+\begin{itemize}
+\tightlist
+\item
+  \textasciitilde30 ml grapefruit juice added to each bottle
+\end{itemize}
+
+\hypertarget{grapefruit-and-orange}{%
+\section{Grapefruit and Orange}\label{grapefruit-and-orange}}
+
+\textbf{Bulk Ferment}
+
+\emph{Tuesday, June 22}
+
+Made another batch, same method
+
+\textbf{Second Ferment}
+
+\emph{Tuesday, June 27}
+
+\begin{itemize}
+\tightlist
+\item
+  Flavor for second ferment was one grapefruit and one orange.
+\item
+  \textasciitilde25 ml in each
+\item
+  Did a plastic bottle for first time; had meant to leave more air.
+\item
+  Next time fill to base of tapered neck.
+\end{itemize}
+
+\hypertarget{watermelon-lime-and-mint}{%
+\section{Watermelon, Lime, and Mint}\label{watermelon-lime-and-mint}}
+
+\textbf{Bulk Ferment}
+
+\emph{Sunday, June 27}
+
+Same recipe, a little extra water.
+
+\textbf{Second Ferment}
+
+\emph{Tuesday, July 6}
+
+\begin{itemize}
+\tightlist
+\item
+  Watermelon, mint, and lime.
+\item
+  Juiced half a watermelon.
+\item
+  Muddled about a dozen mint leaves with a little sugar and splash of water.
+\item
+  Added juice of two limes
+\item
+  \textasciitilde40-50 ml of this juice added to each bottle, filled with kombucha
+\item
+  Used old kirkland kombucha bottles from a friend and one plastic coke bottle as a carbonation gauge.
+\end{itemize}
+
+\hypertarget{peach-and-ginger}{%
+\section{Peach and Ginger}\label{peach-and-ginger}}
+
+\textbf{Bulk Ferment}
+
+\emph{Tuesday, July 6}
+
+Brewed new batch as usual. Added one 16 oz bottle of water to fill the crock.
+
+Plastic bottle was hard after a few days, put in fridge. Could have let it get harder, as bottles didn't have much carbonation, but gained some in fridge (we were gone July 11-16).
+
+\textbf{Second Ferment}
+
+\emph{Sunday, July 18}
+
+\begin{itemize}
+\tightlist
+\item
+  12 day first ferment
+\item
+  Peaches and ginger
+\item
+  One plastic bottle as carbonation gauge
+\end{itemize}
+
+\hypertarget{peach}{%
+\section{Peach}\label{peach}}
+
+\textbf{Bulk Ferment}
+
+\emph{Sunday, July 18}
+
+No notes.
+
+\textbf{Second Ferment}
+
+Flavored with just peach. Opinion: ginger and peach is better.
+
+\hypertarget{strawberry-kiwi}{%
+\section{Strawberry Kiwi}\label{strawberry-kiwi}}
+
+\textbf{Bulk Ferment}
+
+\emph{No dates / notes}
+
+\textbf{Second Ferment}
+
+\emph{Sunday August 29}
+
+Flavor: \textbf{strawberry kiwi}, Cara and Arlo liked best yet.
+
+\hypertarget{nectarine-and-blueberry}{%
+\section{Nectarine and Blueberry}\label{nectarine-and-blueberry}}
+
+\textbf{Bulk Ferment}
+
+\emph{Sunday August 29}
+
+No notes.
+
+\textbf{Second Ferment}
+
+\emph{Saturday September 18}
+
+Nectarine and frozen blackberries
+
+\hypertarget{ginger-and-mint}{%
+\section{Ginger and Mint}\label{ginger-and-mint}}
+
+\textbf{Bulk Ferment}
+
+\emph{Saturday September 18}
+
+\textbf{Second Ferment}
+
+Ginger and mint
+
+\hypertarget{apple-and-ginger}{%
+\section{Apple and Ginger?}\label{apple-and-ginger}}
+
+\emph{No date / notes}
+
+\textbf{Second Ferment}
+
+Apple and ginger maybe?
+
+\hypertarget{mystery}{%
+\section{Mystery?}\label{mystery}}
+
+\textbf{Bulk Ferment}
+
+\emph{Sunday October 31}
+
+\textbf{Second Ferment}
+
+\emph{No date}
+
+Ginger and lemon
+
+\hypertarget{pear-and-ginger}{%
+\section{Pear and Ginger}\label{pear-and-ginger}}
+
+\textbf{Bulk Ferment}
+
+\emph{No date / notes}
+
+Left for a few months. Checked periodically to ensure nothing looked off.
+
+\textbf{Second Ferment}
+
+\emph{Sunday January 23, 2022}
+
+Had reduced to \textless4 bottles during F1, trying f2 for science. One plastic bottle for carbonation guage.
+
+\begin{itemize}
+\tightlist
+\item
+  Flavor: pear and ginger
+
+  \begin{itemize}
+  \tightlist
+  \item
+    1 cc size cubes
+  \item
+    Sugar: 1/2 tsp in each bottle
+  \end{itemize}
+\end{itemize}
+
+\emph{Unknown date}
+
+Update: none carbonated, f2 for a couple of weeks at room temp. Tasted fine though, maybe a bit more tart than usual.
+
+\hypertarget{strawberry}{%
+\section{Strawberry}\label{strawberry}}
+
+\textbf{Bulk Ferment}
+
+\emph{Sunday January 23, 2022}
+
+\textbf{Second Ferment}
+
+\emph{Tuesday, May 17}
+
+Again let sit for several months.
+
+\begin{itemize}
+\tightlist
+\item
+  Quantity: 4 soda bottles filled to top of label
+\item
+  Flavor: about 12 strawberries and a sizable scoop full of sugar
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Macerated the strawberries in the sugar. \textasciitilde60 ml per bottle
+  \end{itemize}
+\end{itemize}
+
+\emph{Thursday may 26}
+
+All four soda bottles firm enough to not give, refrigerated
+
+\begin{itemize}
+\tightlist
+\item
+  Thoughts: a bit too sweet
+\end{itemize}
+
+\hypertarget{ginger-beer}{%
+\chapter{Ginger Beer}\label{ginger-beer}}
+
+\hypertarget{batch-1}{%
+\section{Batch 1}\label{batch-1}}
+
+\textbf{Bug}
+
+\emph{Early September 2021}
+
+Started a ginger bug, chlorine evaporated water from starter sourdough jug. Arbitrary amount of grated ginger in small amount of initial water. After about a week added more ginger and a bit of sugar. Started shaking it, got bubbly.
+
+\textbf{Bulk Ferment}
+
+\emph{September 18 2021}
+
+\begin{itemize}
+\item
+  Cut up a few chunks of skinned ginger and simmered in 2 qts of tap water for \textasciitilde15 minutes.
+\item
+  Strained out ginger solids
+\item
+  Added 2 cups sugar, stirred too dissolve
+\item
+  Added 2 qts of tap and let cool
+\item
+  Added strained ginger bug
+\item
+  F1 in cloth covered crock
+\end{itemize}
+
+\textbf{Second Ferment}
+
+No notes, but it was pretty good. Definitely different than commercial versions.
+
+\hypertarget{batch-2}{%
+\section{Batch 2}\label{batch-2}}
+
+\textbf{Bug}
+
+\emph{May 24-ish, 2022}
+
+Started bug with occasional feedings of arbitrary amounts. Grew vigorous after a few days, but ran out of ginger mid-covid quarantine so had to wait for a grocery pick up and bug grew stagnant. Revived with a couple (two) feedings, noticed a \emph{few} bubbles on May 31st. All feedings used de-chlorinated water left out overnight and ginger (skin included) grated on the fine side of a box grater.
+
+\textbf{Bulk Ferment}
+
+\emph{May 31, 2022}
+
+Loosely followed \href{https://www.wildfermentation.com/the-art-of-fermentation/}{The Art of Fermentation} method.
+
+\begin{itemize}
+\item
+  Simmered 2 quarts of water with \textasciitilde5 in of coursely grated ginger (skin included, not sure if appropriate to have left it on) for about 15 minutes
+\item
+  Dissolved \sout{2 cups} 400 g sugar
+\item
+  Added 2 quarts cool water to dilute, tasted and let cool to room temp for several hours (very warm day)
+\item
+  Added bug (slightly less than \textasciitilde2 cups)
+\item
+  Mixed then strained through fine mesh sieve
+\end{itemize}
+
+\textbf{Output}
+
+Split perfectly between a half-gallon mason jar and a 2 liter kliner jar.
+
+\end{document}
