@@ -16,5 +16,3 @@ description: "Some fermentation notes"
 # Introduction
 
 Just a place to archive / backup my fermentation notes while learning a bit about `R` and [bookdown](https://bookdown.org/).
-
-Testing github pages update
