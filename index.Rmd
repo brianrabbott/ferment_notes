@@ -15,7 +15,7 @@ description: "Some fermentation notes"
 
 # Introduction
 
-Just a place to archive / backup my fermentation notes while as an added benefit learning a little bit about R, [RStudio](https://www.rstudio.com/), [bookdown](https://bookdown.org/), version control, and hosting a site on [GitHub](https://github.com/)
+A place to archive / backup my fermentation notes while as an added benefit learning a little bit about R, [RStudio](https://www.rstudio.com/), [bookdown](https://bookdown.org/), version control, and hosting a site on [GitHub](https://github.com/)
 
 - Resources:
   - [Getting started with Git and R](https://happygitwithr.com/)
