@@ -15,4 +15,10 @@ description: "Some fermentation notes"
 
 # Introduction
 
-Just a place to archive / backup my fermentation notes while learning a bit about `R` and [bookdown](https://bookdown.org/).
+Just a place to archive / backup my fermentation notes while as an added benefit learning a little bit about R, [RStudio](https://www.rstudio.com/), [bookdown](https://bookdown.org/), version control, and hosting a site on [GitHub](https://github.com/)
+
+- Resources:
+  - [Getting started with Git and R](https://happygitwithr.com/)
+  - [Bookdown tutorial](https://bookdown.org/yihui/bookdown/get-started.html).
+
+Note: entries before May 2022 weren't kept well and may lack enough information to be reproducible.  Remedying this moving forward is a major goal of these notes.
